@@ -10,6 +10,64 @@
     <p id="description">Please fill out this survey form.</p>
     <form id="survey-form">
 
+        <!-- Ad Girişi -->
+        <label id="name-label" for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <br><br>
+
+        <!-- E-posta Girişi -->
+        <label id="email-label" for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <br><br>
+
+        <!-- Sayı Girişi -->
+        <label id="number-label" for="number">Age:</label>
+        <input type="number" id="number" name="age" min="18" max="100" placeholder="Enter your age">
+
+        <br><br>
+
+        <!-- Açılır Menü (Dropdown) -->
+        <label for="dropdown">Select your role:</label>
+        <select id="dropdown" name="role">
+            <option value="student">Student</option>
+            <option value="developer">Developer</option>
+        </select>
+
+        <br><br>
+
+        <!-- Radyo Butonları -->
+        <p>Choose your gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <br><br>
+
+        <!-- Onay Kutuları -->
+        <p>Which programming languages do you know?</p>
+        <input type="checkbox" id="html" name="language" value="HTML">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" id="css" name="language" value="CSS">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" id="js" name="language" value="JavaScript">
+        <label for="js">JavaScript</label>
+
+        <br><br>
+
+        <!-- Yorum Alanı -->
+        <label for="comments">Additional Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Enter your feedback here..." rows="4"></textarea>
+
+        <br><br>
+
+        <!-- Gönderme Butonu -->
+        <button id="submit" type="submit">Submit</button>
 
     </form>
 </body>
