@@ -8,7 +8,7 @@
     --dark-red: #850000;
     --light-green: #acd157;
   }
-  
+
   body {
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 18px;
@@ -30,3 +30,13 @@
   .output {
     margin: 20px auto;
   }
+
+  label,
+legend {
+  font-weight: bold;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
